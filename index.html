@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> Techknowcradle </title>
+    </head>
+
+    <body>
+        <header>
+            <h1 style="color:rgb(255, 227, 232)">Techknowcradle<img src="download.png"></img></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About Techknowcradle</h2>
+            <p>Techknowcradle is an upcoming event that offers exciting science workshops for school kids. Our workshops are designed to spark curiosity and foster a love for science among young learners.</p>
+        </section>
+    
+        <section style="background-color: rgb(1, 39, 43);" id="workshops">
+            <h2 style="color:rgb(197, 255, 255)">Workshops Offered</h2>
+            <div class="workshop-container">
+                <div class="workshop">
+                   
+                    <h3 >Robotics and Automation</h3>
+                    <p>This workshop covers the basics of robotics and automation.</p>
+                    <p><img style="width:100%; padding:10px"src="robo.jpg"></img></p>
+                   
+                </div>
+                <div class="workshop">
+                    <h3>Chemistry Magic</h3>
+                    <p>Learn exciting chemistry experiments and tricks!</p>
+                    <p><img style="width:100%; padding:10px"src="chem.jpg"></img></p>
+                </div>
+                <div class="workshop">
+                    <h3>Astronomy Adventure</h3>
+                    <p>Explore the wonders of the universe in this astronomy workshop.</p>
+                    <p><img style="width:100%; padding:10px"src="astro.jpg"></img></p>
+                </div>
+                <div class="workshop">
+                    <h3>Maths Magic</h3>
+                    <p>A fun competition with amazing maths problems!</p>
+                    <p><img style="width:100%; padding:10px"src="math.jpg"></img></p>
+                </div>
+            </div>
+        </section>
+        
+        <div class="reg">
+        <section class="reg-bg" id="registration">
+            <h2>Registration</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age" required><br><br>
+                
+                <label for="school">School:</label><br>
+                <input type="text" id="school" name="school" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <button type="submit">Register Now</button>
+            </form>
+        </section>
+    </div>
+    
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries about Techknowcradle, feel free to contact us at <a href="mailto:info@techknowcradle.com">info@techknowcradle.com</a>.</p>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Techknowcradle. All rights reserved.</p>
+        </footer>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
