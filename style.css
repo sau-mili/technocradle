@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color:rgb(2, 37, 75);
+    background-color:#3A0CA3;
     color: rgb(180, 239, 243);
     padding: 0px;
     padding-top: 20px;
@@ -80,7 +80,7 @@ nav ul {
 svg{
     display: block;
     width: 100%;
-    background-color: rgb(249, 249, 194);
+    background-color: #FEF5C2;
     margin: 0px;
     padding: 0px;
     border:none;
@@ -97,7 +97,7 @@ nav ul li {
     margin-right: 30px;
 }
 .reg {
-    background-color:#f7d5d5;
+    background-color:#D6C6FB;
     align-items: center;
     display: flex;
     padding:20px;
@@ -111,17 +111,17 @@ nav ul li a {
 
 
 .reg-bg{
-    background-color: rgb(134, 182, 224);
+    background-color: #FFFFFF;
     justify-content: center;
     width:40%;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
 
     
 }
 
 section {
-    background-color: rgb(249, 249, 194);
+    background-color: #FEF5C2;
     padding: 10px;
     margin-top: 0px;
     
@@ -137,6 +137,7 @@ section h2 {
 form label {
     font-weight: bold;
     margin: 10px;
+    
 }
 
 form input {
@@ -145,6 +146,7 @@ form input {
     margin-bottom: 10px;
     margin-top:6px;
     margin: 10px;
+    background-color: #C6EEFA;
     
     border:none;
     border-radius: 5px;
@@ -163,11 +165,19 @@ form button {
 
 
 footer {
-    background-color: #f7d5d5;
+    background-color: #D6C6FB;
     text-align: center;
     padding: 10px;
 }
 
+.success-message {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #c0ea57;
+    color: #fff;
+    border-radius: 5px;
+  }
 
 /* .workshop-container {
     display: flex;
