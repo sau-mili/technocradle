@@ -237,3 +237,24 @@ footer {
     width: 100%;
     
 }
+
+.lr{
+    display:flex;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.lr-container{
+    padding:30px;
+    color:#3A0CA3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.lritem{
+    
+
+}
