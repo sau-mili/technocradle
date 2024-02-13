@@ -2,14 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
    
 }
 
 header {
-    background-color: #151414;
+    background-color:hsl(0, 3%, 6%);
     color: rgb(180, 239, 243);
-    padding: 20px;
+    padding: 0px;
+    padding-top: 20px;
     text-align: center;
+    margin: 0;
+    
 }
 
 header img{
@@ -33,6 +37,14 @@ nav ul {
     padding: 0;
 }
 
+svg{
+    background-color: rgb(249, 249, 194);
+    margin: 0px;
+    padding: 0px;
+    border:none;
+    
+}
+
 nav ul li {
     color:rgb(167, 233, 250);
     display: inline;
@@ -50,6 +62,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+
+
 .reg-bg{
     background-color: rgb(134, 182, 224);
     justify-content: center;
@@ -62,6 +76,8 @@ nav ul li a {
 section {
     background-color: rgb(249, 249, 194);
     padding: 20px;
+    margin-top: 0px;
+    
 }
 
 section h2 {
