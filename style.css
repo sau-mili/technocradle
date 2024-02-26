@@ -63,7 +63,7 @@ header img{
 h2{
     color:brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35;
+    font-size:30px;
 }
 
 header h1 {
@@ -254,7 +254,7 @@ footer {
 
 }
 
-.lritem{
+/* .lritem{
     
 
-}
+} */
